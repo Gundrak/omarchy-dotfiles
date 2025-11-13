@@ -63,3 +63,4 @@ Examples:
 2. Recreate home directory structure inside it
 3. Move config files into the structure
 4. Stow it: `stow <package-name>`
+5. Test
