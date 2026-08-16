@@ -1,35 +1,36 @@
 {
-    "window.commandCenter": true,
-    "editor.fontSize": 16,
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "vim.leader": "<space>",
-    "vim.insertModeKeyBindings": [
-        {
-            "before": ["j", "k"],
-            "after": ["<Esc>"]
-        }
-    ],
-    "vim.normalModeKeyBindings": [
-        {
-            "before": ["<leader>", "e"],
-            "commands": ["workbench.view.explorer"]
-        }
-    ],
-    "workbench.colorTheme": "Cursor Monokai",
-    "workbench.iconTheme": "material-icon-theme",
-    "indentRainbow.colors": [
-        "rgba(255,255,64,0.03)",
-        "rgba(127,255,127,0.03)",
-        "rgba(255,127,255,0.03)",
-        "rgba(79,236,236,0.03)"
-    ],
-    "reactSnippets.settings.typescriptPropsStatePrefix": "interface",
-    "git.enableCommitSigning": true,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+  "window.commandCenter": true,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vim.leader": "<space>",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"],
     },
-    "prettier.semi": false,
-    "reactSnippets.settings.importReactOnTop": false
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"],
+    },
+  ],
+  "workbench.colorTheme": "Ocean Green: Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.03)",
+    "rgba(127,255,127,0.03)",
+    "rgba(255,127,255,0.03)",
+    "rgba(79,236,236,0.03)",
+  ],
+  "reactSnippets.settings.typescriptPropsStatePrefix": "interface",
+  "git.enableCommitSigning": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+  },
+  "reactSnippets.settings.importReactOnTop": false,
+  "window.autoDetectColorScheme": false,
+  "prettier.semi": false,
 }

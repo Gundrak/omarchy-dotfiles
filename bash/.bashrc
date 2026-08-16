@@ -5,6 +5,9 @@
 # (don't mess with these directly, just overwrite them here!)
 source ~/.local/share/omarchy/default/bash/rc
 
+# Override omarchy defaults
+alias cx='printf "\033[2J\033[3J\033[H" && claude'
+
 # Add your own exports, aliases, and functions here.
 #
 # Make an alias for invoking commands you use constantly
